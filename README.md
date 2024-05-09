@@ -1,2 +1,3 @@
-# CML
-[UAI 2024] This is the repository for the paper titled "Cooperative Meta-Learning with Gradient Augmentation"
+# Cooperative Meta-Learning with Gradient Augmentation (CML)
+
+This repository provides the code for the paper titled Cooperative Meta-Learning with Gradient Augmentation (CML)
