@@ -44,3 +44,8 @@ test_cml.py --folder=~/data --dataset=miniimagenet --model=4-conv_cml --num-ways
 ```
 * If you want to test co-learner, you can use the option **--use-colearner**.
 * Note that it must be the same as the path to the model saved by train (ouput-folder, save-name)
+
+
+### References
+
+This code is based on the implementations of [BOIL](https://github.com/jhoon-oh/BOIL).
