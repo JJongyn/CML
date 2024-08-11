@@ -1,6 +1,10 @@
 # Cooperative Meta-Learning with Gradient Augmentation (CML)
 
-This repository provides the code for the UAI 2024 (Main Track) paper titled Cooperative Meta-Learning with Gradient Augmentation (CML)
+This repository provides the code for the _UAI 2024_ (Main Track) paper titled **Cooperative Meta-Learning with Gradient Augmentation** (CML).
+
+## Overview
+<img width="990" alt="cml" src="https://github.com/JJongyn/CML/assets/92678942/f084b6e5-10c0-47fa-90ad-a290ec398417">
+
 
 ## Requirements
 
@@ -40,3 +44,8 @@ test_cml.py --folder=~/data --dataset=miniimagenet --model=4-conv_cml --num-ways
 ```
 * If you want to test co-learner, you can use the option **--use-colearner**.
 * Note that it must be the same as the path to the model saved by train (ouput-folder, save-name)
+
+
+### References
+
+This code is based on the implementations of [BOIL](https://github.com/jhoon-oh/BOIL).
