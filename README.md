@@ -49,3 +49,14 @@ test_cml.py --folder=~/data --dataset=miniimagenet --model=4-conv_cml --num-ways
 ### References
 
 This code is based on the implementations of [BOIL](https://github.com/jhoon-oh/BOIL).
+
+### Citation
+If you use this project in your research, please cite our paper:
+
+```bibtex
+@article{shin2024cooperative,
+  title={Cooperative Meta-Learning with Gradient Augmentation},
+  author={Jongyun Shin and Seunjin Han and Jangho Kim},
+  journal={arXiv preprint arXiv:2406.04639},
+  year={2024}
+}
