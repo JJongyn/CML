@@ -89,8 +89,9 @@ def main(args, mode, iteration=None):
             co_accuracy.div_(args.batch_size)
             co_loss_logs.append(co_outer_loss.item())
             co_accuracy_logs.append(co_accuracy.item())
-            
-            total_loss = outer_loss + args.loss_scaling * co_outer_loss
+
+            # This Co-learner loss enhances gradient diversity, acting as gradient augmentation.
+            total_loss = outer_loss + args.loss_scaling * co_outer_loss  
             
             if args.meta_train:
                 conv_optimizer.zero_grad()
