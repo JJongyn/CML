@@ -2,6 +2,11 @@
 
 This repository provides the code for the _UAI 2024_ (Main Track) paper titled **Cooperative Meta-Learning with Gradient Augmentation** (CML).
 
+## Author
+* **Jongyun Shin**
+* Seunjin Han
+* Jangho Kim
+
 ## Overview
 <img width="990" alt="cml" src="https://github.com/JJongyn/CML/assets/92678942/f084b6e5-10c0-47fa-90ad-a290ec398417">
 
